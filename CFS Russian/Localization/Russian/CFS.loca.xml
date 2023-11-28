@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h1eceeeb7gcaeeg46eagb8afg4ff8386033a5" version="1">Вы уже концентрируетесь на заклинании</content>
+	<content contentuid="h4d215fa7g6d15g4acbg8139g56cb67212a5c" version="1">Устойчивая концентрация</content>
+	<content contentuid="h7af02440ga775g44ddga0e4g04987028c1e7" version="1">Блокирует применение заклинаний, требующих &lt;LSTag Tooltip="Concentration"&gt;концентрацию&lt;/LSTag&gt; когда вы уже концентрируетесь на заклинании.</content>
+</contentList>
