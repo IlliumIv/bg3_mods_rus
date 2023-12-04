@@ -1,0 +1,24 @@
+local __util = require 'larian.util'
+
+
+
+
+function HasMaximumBloodCharge(entity)
+    local entity = entity or context.Target
+    return ConditionResult(GetStatusDuration('SEY_BLOOD_CHARGES', entity) > 5)
+end
+
+function IsBlood6(entity)
+    local entity = entity or context.Target
+    return ConditionResult(GetStatusDuration('SEY_BLOOD_CHARGES', entity) >= 6)
+end
+
+function IsBlood4(entity)
+    local entity = entity or context.Target
+    return ConditionResult(GetStatusDuration('SEY_BLOOD_CHARGES', entity) >= 4)
+end
+
+function IsBlood2(entity)
+    local entity = entity or context.Target
+    return ConditionResult(GetStatusDuration('SEY_BLOOD_CHARGES', entity) >= 2)
+end

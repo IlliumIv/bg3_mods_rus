@@ -1,0 +1,20 @@
+﻿<contentList>		
+	<content contentuid="h1bd7986fg772dg478bga3fdgd65c53e3c53a" version="1">Box of Bloodhunter Hand Crossbows</content>
+	<content contentuid="hb3a759d0gf913g4d7fg8309g443f467c6d29" version="1">This box contains a set of Bloodhunter hand crossbows made by the illustrious master of the Arcane, Seymordius. His creations are known far and wide throughout the lands of Faerun for their quality.</content>
+	<content contentuid="h4d8b6310g5c3fg4dbeg990cg4b8ca4b9162e" version="1">Carmine</content>
+	<content contentuid="h6a80ee94g7500g4aa8ga69fged10ee8e1371" version="1">Sister to Scarlett, a deadly weapon in a Bloodhunter's hands.</content>
+	<content contentuid="h1b2a82deg0695g4c46ga6bcg10085ddcd1db" version="1">Scarlett</content>
+	<content contentuid="h2311c7cdg89c7g4857gbee6gaea1dd2bcf3b" version="1">Sister to Carmine, a deadly weapon in a Bloodhunter's hands.</content>	
+	<content contentuid="h0b81c9e2g6bd5g4a30ga6f6g077cfae581b2" version="1">Blood Frenzy</content>
+	<content contentuid="hb40f7266gc896g4ba3g95bfgce5beed03bba" version="1">Unlocks Spells that can be cast for free at 2, 4, and 6 stacks.</content>
+	<content contentuid="h85015fb4gd552g4dc8g9b91gcc3fd9b2925e" version="1">Sanguine Hunger</content>
+	<content contentuid="hdf59731dgd5c3g41e1g9658gcdb87a2bb89e" version="1">For every successful hit you generate 1 stack of Blood Frenzy.</content>
+	<content contentuid="h5102d363g412bg4dadg81fag0e71b6eab171" version="1">Darkness Prevails</content>
+	<content contentuid="h0e667613g21a3g4bccga00fg6fefaf0e469d" version="1">This weapon will Blind its target on a Critical Hit.</content>
+	<content contentuid="h438676e1g1d38g49a1ga254g2dc03fa46675" version="1">Weakness Exploitation</content>
+	<content contentuid="h880d9975g505bg4c23g9901g16c38582a76e" version="1">The next attacker will have Advantage after a successful Critical Hit with this weapon.</content>
+	<content contentuid="hc8f96987g8faag4964g9fb9g15cf76e5b7a4" version="1">Bloodhunter's Arsenal</content>
+	<content contentuid="h82bcb216gad09g4f4bga363ga8fa7be7dcde" version="1">This is a container for Blood Charge Spells</content>
+	<content contentuid="h9ef929fcgcaebg43ddg8acdga7b5846507dd" version="1">Blood Fueled Speed</content>
+	<content contentuid="h1c720c99g40f0g4583g94b7geabf81f6541a" version="1">Gain &lt;LSTag Type="Status" Tooltip="MAG_CELESTIAL_HASTE"&gt;Blood Fueled Speed&lt;/LSTag&gt;.</content>
+</contentList>
