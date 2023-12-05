@@ -22,10 +22,10 @@
 					<attribute id="Tags" type="LSWString" value=""/>
 					<attribute id="Type" type="FixedString" value="Gameplay"/>
 					<attribute id="UUID" type="FixedString" value="c6e6f314-7374-4faa-8a17-58c75a6091f3"/>
-					<attribute id="Version" type="int64" value="36028799166447616"/>
+					<attribute id="Version" type="int64" value="36028799166447619"/>
 					<children>
 						<node id="PublishVersion">
-							<attribute id="Version" type="int64" value="36028799166447616"/>
+							<attribute id="Version" type="int64" value="36028799166447619"/>
 						</node>
 						<node id="Scripts"/>
 						<node id="TargetModes">
