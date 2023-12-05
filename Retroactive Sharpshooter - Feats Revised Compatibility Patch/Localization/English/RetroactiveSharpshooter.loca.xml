@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hef47f988ge288g4e73gbe5fg86022e8fb55e" version="1">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;ranged weapon attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Ranged weapon attacks with weapons you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with have a -[1] penalty to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, but deal an additional [2] damage. On miss, you will be able to negate &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; penalty and damage bonus with reaction.</content>
+</contentList>
