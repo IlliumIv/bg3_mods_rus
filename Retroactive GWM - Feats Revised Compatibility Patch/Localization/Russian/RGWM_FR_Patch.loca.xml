@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h222cfa16ge845g4e8dgaf31gdbfb61363706" version="1">При атаке оружием ближнего боя, с которым вы &lt;LSTag Tooltip="Proficiency"&gt;умеете обращаться&lt;/LSTag&gt; и которое держите в двух руках, &lt;LSTag Tooltip="AttackRoll"&gt;броски атаки&lt;/LSTag&gt; получают штраф -[1], но урон увеличивается на [2].</content>
+	<content contentuid="h3c968c3bg31adg477fg8a1fgf019564f35b0" version="1">Когда вы наносите &lt;LSTag Tooltip="CriticalHit"&gt;критический удар&lt;/LSTag&gt; или убиваете цель &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;атакой оружием в ближнем бою&lt;/LSTag&gt;, вы можете выполнить в этот ход еще одну атаку оружием ближнего боя в качестве &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;бонусного действия&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;При атаке оружием ближнего боя, с которым вы &lt;LSTag Tooltip="Proficiency"&gt;умеете&lt;/LSTag&gt; обращаться и которое держите в двух руках, &lt;LSTag Tooltip="AttackRoll"&gt;броски атаки&lt;/LSTag&gt; получают штраф -4, но урон увеличивается на 1d12. При промахе вы можете среагировать, отменив штраф к &lt;LSTag Tooltip="AttackRoll"&gt;броску атаки&lt;/LSTag&gt; и дополнительный урон.</content>
+	<content contentuid="h2fe5244dg9888g49acg8392g617de508051a" version="1">Вы получаете штраф -4 к &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt;, которые проводите тяжелым оружием ближнего боя.</content>
+	<content contentuid="hefd0fc2fge01dg47f1g8a68gbe08076c529c" version="1">Бонус к атаке в ближнем бою: -4</content>
+	<content contentuid="h519e03bdg2954g448cg89f0gbbd0e6a193ef" version="1">Вы получаете бонус +1d12 к броскам урона, который наносите тяжелым оружием ближнего боя.</content>
+	<content contentuid="h024b1d4eg75b3g4564g9260g50be05a00e09" version="1">Бонус к урону в ближнем бою: +1d12</content>
+</contentList>

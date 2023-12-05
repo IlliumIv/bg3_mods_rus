@@ -1,0 +1,8 @@
+new entry "GreatWeaponMaster_BonusDamage"
+type "PassiveData"
+data "DisplayName" "h1a37da67gccceg4c2fg8216g2c945f1fcb27;2"
+data "Description" "h222cfa16ge845g4e8dgaf31gdbfb61363706;1"
+data "DescriptionParams" "4;1d12"
+data "Icon" "PassiveFeature_GreatWeaponMaster_BonusDamage"
+data "PriorityOrder" "1"
+data "Boosts" "UnlockInterrupt(Interrupt_GWM);IF(GreatWeaponMaster(context.Source)):RollBonus(MeleeWeaponAttack, -4);IF(GreatWeaponMaster(context.Source)):CharacterWeaponDamage(1d12)"
