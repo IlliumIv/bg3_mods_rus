@@ -19,8 +19,8 @@
 					<attribute id="NumPlayers" type="uint8" value="4"/>
 					<attribute id="PhotoBooth" type="FixedString" value=""/>
 					<attribute id="StartupLevelName" type="FixedString" value=""/>
-					<attribute id="Tags" type="LSWString" value=""/>
-					<attribute id="Type" type="FixedString" value="Patch"/>
+					<attribute id="Tags" type="LSWString" value="Patch"/>
+					<attribute id="Type" type="FixedString" value="Add-on" />
 					<attribute id="UUID" type="FixedString" value="49d02270-085f-4565-9853-854989ec1092"/>
 					<attribute id="Version" type="int64" value="36028797018963968"/>
 					<children>
