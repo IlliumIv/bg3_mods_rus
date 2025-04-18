@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hd17226d5g8e6ag45cfg9734g44f555141b64" version="1">Коробка со снаряжением Кровавого охотника</content>
+	<content contentuid="hb4a802b3g387fg4068gbd72g28dd2ee5397f" version="1">В этой коробке содержится набор ориентированного на скрытность снаряжения, созданный прославленным мастером магии Сеймордиусом. Его творения известны далеко за пределами Фаэруна благодаря своему качеству.</content>
+	<content contentuid="h28692453g0925g44ebga185g9fd609533d0f" version="1">Кольцо пронзительного взгляда</content>
+	<content contentuid="h675eff51g7a87g4a16gb4a0ged158f292b81" version="1">Кольцо кровавых ударов</content>
+	<content contentuid="h147bf436g644dg4a9fg93bdgfadd56a59911" version="1">Амулет кромешной тьмы</content>
+	<content contentuid="h962a4585ga6b3g4d4bgb1afgafb8e961f59f" version="1">Плащ Кровавого охотника</content>
+	<content contentuid="h218736e5g1485g4e57g98fdg323fa53d41b3" version="1">Перчатки Кровавого охотника</content>
+	<content contentuid="h29470fbaga742g4333g86e4gc861dedc50b2" version="1">Сапоги Кровавого охотника</content>
+	<content contentuid="he81b28e4gf0bbg4cd7g95e6g9cba3d08d967" version="1">Броня Кровавого охотника</content>
+	<content contentuid="h788f30d1g0bdcg47a8g9bc1g8dc01b46b2f2" version="1">Шлем Кровавого охотника</content>
+	<content contentuid="h81167d4cg6ca7g4f1fgbd42g4cce5d060084" version="1">Жаждущий барон</content>
+	<content contentuid="h502ffafagf56cg4b59g85f9g8ea9683d3d8d" version="1">Кровопийца</content>
+	<content contentuid="h2f5ea187gc4feg4650g8fa9gf284c7d8f2a7" version="1">Багряный пронзатель</content>
+	<content contentuid="h6f9052afga632g4768g9f09g40afe3028321" version="1">У Сея не было времени придумать достойное описание.</content>
+	<content contentuid="h38c0d03dge196g467eg9755gd27f8ec9ce7b" version="1">Граната ловчего</content>
+	<content contentuid="h4d777da7g116eg470dga08egb495a411d9e3" version="1">Throw a grenade, upon impact the target(s) within range need to succeed a Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or are sucked into the point of impact.</content>
+	<content contentuid="h3374b3b5g83c0g49a5ga8f9g819cb93657e2" version="1">Deep Cuts</content>
+	<content contentuid="hb49beeb3g25b3g483bg8d49g022bdf2a887f" version="1">Whenever the wearer deal Piercing damage, the target needs to succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or start &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt; for 3 turns.</content>
+	<content contentuid="h20a61117g5b96g4da0g97e3g079d432389ff" version="1">Unwavering Blood</content>
+	<content contentuid="h05dc2c24gb113g4afag8b78gd57bf06d019b" version="1">The wearer ignores the effects of &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and while standing in blood the wearer cannot be &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;.</content>
+	<content contentuid="h2e74e827gaca2g4d48g8dc4gfbe17732bb58" version="1">Vampiric Thirst</content>
+	<content contentuid="h1bdcec1ag05d1g4154gb5ebg3fad32222c6b" version="1">If the target is Bleeding and the wearer does damage with this weapon the wearer gains [1].</content>
+	<content contentuid="h04ebcf3cgec2dg4735ga983g4a4cea7f760a" version="1">Exsanguination</content>
+	<content contentuid="h33f64ac6g8d66g4399g91f2g0e21ec8cb484" version="1">If the target is Bleeding and the wearer does damage with this weapon the wearer lowers the target's AC by 2.</content>
+	<content contentuid="hfc44edddg54fcg46fdg91a4g5dc3ce26c211" version="1">Sanguine Fortification</content>
+	<content contentuid="h1b62eeb8g0ac7g434ag8906gbf2cef80f279" version="1">Gained +[1] bonus to AC.</content>
+	<content contentuid="hb1360c80g5656g48f6ga62cg13166e596bc3" version="1">Sanguine Fortification</content>
+	<content contentuid="hd34f0956g05ccg4886gbd37gddcaddbc1ec4" version="1">If the target is Bleeding and the wearer does damage with this weapon the wearer gains a bonus of +2 to AC.</content>
+	<content contentuid="h54419bb2gea74g40a1ga1d9g97b130f8c98c" version="1">Temporary AC Reduction</content>
+	<content contentuid="h5ab3be09ga9a4g43fdg84cfg5271c486ba99" version="1">Temporary reduction of [1].</content>
+	<content contentuid="hd78b0df5g82d8g4ac6g89abgc171879efbe5" version="1">Dark Smokebomb</content>
+	<content contentuid="hc99a43e3ga382g41ecg9378gde03e10df8a5" version="1">Throw a smokebomb. It explodes dealing [1] and creates a Cloud of Darkness.</content>
+	<content contentuid="h14f8ee42g7d03g4527g8031g766309e3a3fa" version="1">Sanguine Retaliation</content>
+	<content contentuid="h477748ffg413fg4a4bgb268g9430e1e0ddc6" version="1">Whenever a creature deals melee damage to the wearer, that creature takes [1], and creates a surface of blood around the wearer.</content>
+	<content contentuid="hc49419c6g336ag4d41ga085g7f233cefbdf0" version="1">Bloodhunter Sense</content>
+	<content contentuid="h69a00a70g9360g44c2gbf35gd04541eced7b" version="1">Grants the wearer &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;bleeding&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="hb313fe5bg13ccg46c8gac59g376eb1b979b7" version="1">Even Deeper Cuts</content>
+	<content contentuid="h65a093f5g5ff6g4a60g9aadg14df5b77e97b" version="1">When creatures are hit with piercing damage while already bleeding, the target needs to succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or have &lt;LSTag Type="Status" Tooltip="BANE"&gt;Bane&lt;/LSTag&gt; for 2 turns</content>
+	<content contentuid="hde1c8160g1deeg4a47gad01gad0a32c45bc3" version="1">Piercing Gaze</content>
+	<content contentuid="hd1a6f5e9g694bg4b74g807bgdc67fc279fb7" version="1">The wearer ignores target's Piercing Resistances and Immunites. The wearer also gains immunity to Blind and the ability to target regardless of Darkness and Fog Clouds.</content>
+	<content contentuid="h796b91b2g2995g4886g90dagbc05f2f58eda" version="1">Blood Regeneration</content>
+	<content contentuid="hb701d814g6d71g4b93g80c2ga0859ab2db22" version="1">As long as it remains on a bloody surface, affected entity regains [1].</content>
+	<content contentuid="h641e0e79g8f20g42bfgb315ga26551b688a2" version="1">Magical Armor</content>
+	<content contentuid="h714f1f31g2cc5g4774g93d3g7c3dc09c76ed" version="1">The AC of this armor is based on your armor proficiency, dex and level. If you have medium armor or heavy armor proficiency you gain extra +2 to AC. The AC increases at levels 4, 7 and 11.</content>
+	<content contentuid="h185d1009g51b6g430bgbf92gc1daf5ba5987" version="1">At level 4 you gain +1 to AC. At level 7 you gain +1 to AC. At level 11 you gain +1 to AC.</content>
+	<content contentuid="h212e509cgcc8fg4c10g942dg141a9ba043c6" version="1">Magical Weapon</content>
+	<content contentuid="hde830147g1185g4edbgaab7g5619d1c12f5a" version="1">This magical weapon grows more powerful as its wielder gains experience. The stats increase at levels 4, 7 and 11.</content>
+	<content contentuid="hc68989b2g0c4cg40a8gbbdcgf797e4046533" version="1">At level 4 you gain a +1 enchantment bonus, at level 7 the enchantment bonus increases to +2, and at level 11 the enchantment bonus increases to +3</content>
+</contentList>
