@@ -1,0 +1,4 @@
+new entry "Sharpshooter_Interrupt"
+type "InterruptData"
+using "Sharpshooter_Interrupt
+data "Cost" "ReactionActionPoint:1"
