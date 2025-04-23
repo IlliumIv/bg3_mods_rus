@@ -1,0 +1,4 @@
+new entry "Interrupt_Riposte"
+type "InterruptData"
+using "Interrupt_Riposte"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsMeleeAttack() and IsMiss() and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and HasLastAttackTriggered()"
