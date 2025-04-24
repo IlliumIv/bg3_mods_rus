@@ -1,6 +1,7 @@
 new entry "Sharpshooter_AllIn"
 type "PassiveData"
 using "Sharpshooter_AllIn"
+data "Description" "hb4488716g4bc1g4932g841dgd9f566585228;1"
 data "Properties" ""
 data "Boosts" "UnlockInterrupt(Sharpshooter_Interrupt);IF(Sharpshooter(context.Source)):RollBonus(RangedWeaponAttack, -5);IF(Sharpshooter(context.Source)):RollBonus(RangedOffHandWeaponAttack, -5);IF(Sharpshooter(context.Source)):CharacterWeaponDamage(10)"
 
