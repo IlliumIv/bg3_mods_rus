@@ -4,7 +4,6 @@
   <region id="Config">
     <node id="root">
       <children>
-        <node id="Conflicts" />
         <node id="Dependencies" />
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="IlliumIv" />
