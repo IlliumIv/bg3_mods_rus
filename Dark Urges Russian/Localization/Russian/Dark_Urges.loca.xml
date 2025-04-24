@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<content contentuid="24e82dcf-28c1-46af-ba42-6e4473c6e76a" version="1">Тёмные Соблазны</content>
-	<content contentuid="574b7597-19de-4558-9380-3e9753d247a8" version="1">Персонаж жаждет крови и может потерять контроль, если не причинит никому вреда.</content>
+	<content contentuid="574b7597-19de-4558-9380-3e9753d247a8" version="1">Существо жаждет крови и может потерять контроль, если не причинит никому вреда. Каждый ход оно должно успешно пройти &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Constitution"&gt;выносливости&lt;/LSTag&gt; или кого-то убить, иначе впадёт в &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;безумие&lt;/LSTag&gt;.</content>
 	<content contentuid="85e60453-473d-425b-9f79-d6ed8303627a" version="1">Насытившийся Соблазн</content>
-	<content contentuid="c6e7aa3e-17fa-4bc6-9b58-4ec38e81646f" version="1">Персонаж удовлетворил свою жажду насилия на текущий момент.</content>
+	<content contentuid="c6e7aa3e-17fa-4bc6-9b58-4ec38e81646f" version="1">Существо насытило свою жажду насилия на текущий момент.</content>
 	<content contentuid="e04318bc-2619-4e6f-ae15-aaa9ba10e560" version="1">Серия убийств</content>
-	<content contentuid="3234da22-4aad-4af4-ba06-ee018b97158d" version="1">Персонаж только что убил кого-то и готов сделать это снова.</content>
+	<content contentuid="3234da22-4aad-4af4-ba06-ee018b97158d" version="1">Существо только что кого-то убило и готово сделать это снова.</content>
 </contentList>
