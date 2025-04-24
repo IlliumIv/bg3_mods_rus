@@ -1,0 +1,4 @@
+new entry "Interrupt_GWM"
+type "InterruptData"
+using "Interrupt_GWM
+data "Cost" "ReactionActionPoint:1"
