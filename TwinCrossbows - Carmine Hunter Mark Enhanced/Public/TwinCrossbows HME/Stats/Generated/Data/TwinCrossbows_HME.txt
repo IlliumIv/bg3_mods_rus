@@ -1,0 +1,4 @@
+new entry "SEY_Crossbows_HuntersMark"
+type "SpellData"
+using "SEY_Crossbows_HuntersMark"
+data "SpellFlags" "IsSpell;HasVerbalComponent;HasHighGroundRangeExtension;IsHarmful;Temporary"
