@@ -4,7 +4,18 @@
   <region id="Config">
     <node id="root">
       <children>
-        <node id="Dependencies" />
+        <node id="Dependencies">
+          <children>
+            <node id="ModuleShortDesc">
+              <attribute id="Folder" type="LSWString" value="Dark Urges" />
+              <attribute id="MD5" type="LSWString" value="" />
+              <attribute id="Name" type="LSWString" value="Dark Urges" />
+              <attribute id="PublishHandle" type="uint64" value="0" />
+              <attribute id="UUID" type="guid" value="0972967e-8763-4fef-8721-292f260e1bc7" />
+              <attribute id="Version64" type="int64" value="36028797018963978" />
+            </node>
+          </children>
+        </node>
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="IlliumIv" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
@@ -12,20 +23,20 @@
           <attribute id="Folder" type="LSWString" value="Dark Urges LSTD" />
           <attribute id="GMTemplate" type="FixedString" value="" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
-          <attribute id="MD5" type="LSString" value="" />
+          <attribute id="MD5" type="LSWString" value="" />
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
           <attribute id="Name" type="FixedString" value="Dark Urges Less Saving Throw Difficulty" />
           <attribute id="NumPlayers" type="uint8" value="4" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
-          <attribute id="Tags" type="LSString" value="Spells" />
+          <attribute id="Tags" type="LSWString" value="Gameplay;Alteration" />
           <attribute id="Type" type="FixedString" value="Add-on" />
           <attribute id="UUID" type="FixedString" value="059b50bf-3ae4-443d-a177-3a806558beee" />
-          <attribute id="Version64" type="int64" value="36028797018963979" />
+          <attribute id="Version64" type="int64" value="36028797018963980" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="36028797018963979" />
+              <attribute id="Version64" type="int64" value="36028797018963980" />
             </node>
             <node id="Scripts" />
             <node id="TargetModes">
