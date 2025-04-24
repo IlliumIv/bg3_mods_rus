@@ -12,9 +12,9 @@
 			  <attribute id="Name" type="LSString" value="Giga Great Weapon Master"/>
 			  <attribute id="PublishHandle" type="uint64" value="0"/>
 			  <attribute id="UUID" type="guid" value="bcdc665e-806b-4b48-8f31-7b77e0acef4c"/>
-			  <attribute id="Version64" type="int32" value="1"/>
+			  <attribute id="Version32" type="int32" value="1"/>
 			</node>
-		  </children
+		  </children>
 		</node>
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="IlliumIv" />
