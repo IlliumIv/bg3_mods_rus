@@ -7,6 +7,7 @@ data "TooltipStatusApply" "ApplyStatus(WEAPON_BOND,100,-1)"
 new entry "Shout_PactOfTheBlade_Bind"
 type "SpellData"
 using "Shout_PactOfTheBlade_Bind"
+data "ExtraDescription" "h910e0ac2g8453g4303g9561gc010a174e70d;1"
 data "SpellProperties" "ApplyEquipmentStatus(MainHand,PACT_BLADE,100,-1);IF(not IsOffHandSlotEmpty()):ApplyEquipmentStatus(OffHand,PACT_BLADE,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PACT_BLADE,100,-1)"
 
