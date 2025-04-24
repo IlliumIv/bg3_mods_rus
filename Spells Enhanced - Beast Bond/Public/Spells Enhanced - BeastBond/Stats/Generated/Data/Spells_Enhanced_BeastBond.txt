@@ -1,0 +1,11 @@
+new entry "Target_BeastBond"
+type "SpellData"
+using "Target_BeastBond"
+data "SpellProperties" "ApplyStatus(BEAST_BOND,100,-1);ApplyStatus(SELF,BEAST_BOND_TECHNICAL,100,-1)"
+data "TooltipStatusApply" "ApplyStatus(BEAST_BOND,100,-1))"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsMelee"
+
+new entry "BEAST_BOND_TECHNICAL"
+type "StatusData"
+using "BEAST_BOND_TECHNICAL"
+data "AuraStatuses" "IF(Character() and not Self()):ApplyStatus(BEAST_BOND_ADVANTAGE,100,-1))"
