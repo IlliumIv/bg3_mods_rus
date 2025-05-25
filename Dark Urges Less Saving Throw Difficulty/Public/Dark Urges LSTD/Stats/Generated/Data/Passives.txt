@@ -1,4 +1,0 @@
-new entry "Dark_Urge_Goes_Mad"
-type "StatusData"
-using "Dark_Urge_Goes_Mad"
-data "TickFunctors" "IF(not HasStatus('Dark_Urge_Is_Save')):ApplyStatus(MADNESS,100,2,,,,not SavingThrow(Ability.Constitution,5));"
