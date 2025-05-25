@@ -1,0 +1,9 @@
+new entry "LOOT_DISTRIBUTED_OBJECT"
+type "StatusData"
+using "LOOT_DISTRIBUTED_OBJECT"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;IgnoreResting;ApplyToDead;DisablePortraitIndicator"
+
+new entry "LOOT_DISTRIBUTED_TRADER"
+type "StatusData"
+using "LOOT_DISTRIBUTED_TRADER"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
