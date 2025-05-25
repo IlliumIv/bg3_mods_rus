@@ -1,4 +1,4 @@
 new entry "Target_MagicWeapon"
 type "SpellData"
 using "Target_MagicWeapon"
-data "SpellProperties" "IF(Item()):ApplyStatus(MAGIC_WEAPON,100,-1);IF(not Item()):ApplyEquipmentStatus(MainHand,MAGIC_WEAPON,100,-1);IF(not Item() and not IsOffHandSlotEmpty()):ApplyEquipmentStatus(OffHand,MAGIC_WEAPON,100,-1)"
+data "SpellProperties" "IF(Item()):ApplyStatus(MAGIC_WEAPON,100,-1);IF(not Item()):ApplyEquipmentStatus(MainHand,MAGIC_WEAPON,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(OffHand,MAGIC_WEAPON,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,MAGIC_WEAPON,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,MAGIC_WEAPON,100,-1)"
