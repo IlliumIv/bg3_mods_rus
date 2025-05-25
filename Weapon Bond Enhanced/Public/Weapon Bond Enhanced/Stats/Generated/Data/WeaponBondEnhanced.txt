@@ -1,14 +1,14 @@
 new entry "Shout_WeaponBond"
 type "SpellData"
 using "Shout_WeaponBond"
-data "SpellProperties" "ApplyEquipmentStatus(MainHand,WEAPON_BOND,100,-1);IF(not IsOffHandSlotEmpty()):ApplyEquipmentStatus(OffHand,WEAPON_BOND,100,-1)"
+data "SpellProperties" "ApplyEquipmentStatus(MainHand,WEAPON_BOND,100,-1);IF(not HasShieldEquipped()):ApplyEquipmentStatus(OffHand,WEAPON_BOND,100,-1);ApplyEquipmentStatus(RangedMainHand,WEAPON_BOND,100,-1);ApplyEquipmentStatus(RangedOffHand,WEAPON_BOND,100,-1);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(MainHand,WEAPON_BOND,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(OffHand,WEAPON_BOND,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedMainHand,WEAPON_BOND,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedOffHand,WEAPON_BOND,100,0)"
 data "TooltipStatusApply" "ApplyStatus(WEAPON_BOND,100,-1)"
 
 new entry "Shout_PactOfTheBlade_Bind"
 type "SpellData"
 using "Shout_PactOfTheBlade_Bind"
 data "ExtraDescription" "h910e0ac2g8453g4303g9561gc010a174e70d;1"
-data "SpellProperties" "ApplyEquipmentStatus(MainHand,PACT_BLADE,100,-1);IF(not IsOffHandSlotEmpty()):ApplyEquipmentStatus(OffHand,PACT_BLADE,100,-1)"
+data "SpellProperties" "ApplyEquipmentStatus(MainHand,PACT_BLADE,100,-1);IF(not HasShieldEquipped()):ApplyEquipmentStatus(OffHand,PACT_BLADE,100,-1);ApplyEquipmentStatus(RangedMainHand,PACT_BLADE,100,-1);ApplyEquipmentStatus(RangedOffHand,PACT_BLADE,100,-1);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(MainHand,PACT_BLADE,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(OffHand,PACT_BLADE,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedMainHand,PACT_BLADE,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedOffHand,PACT_BLADE,100,0)"
 data "TooltipStatusApply" "ApplyStatus(PACT_BLADE,100,-1)"
 
 new entry "PACT_BLADE"
