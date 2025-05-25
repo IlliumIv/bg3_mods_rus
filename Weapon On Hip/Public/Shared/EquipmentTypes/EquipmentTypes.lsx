@@ -346,8 +346,6 @@
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
                     <attribute id="Name" type="FixedString" value="Shield"/>
-					<attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Shield"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Shield"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Shield"/>
                     <attribute id="SoundEquipmentType" type="FixedString" value="Shield"/>
                     <attribute id="UUID" type="guid" value="fac6dd3a-6ceb-40fc-91e8-6f39c33cd98a"/>
