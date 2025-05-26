@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<content contentuid="h910e0ac2g8453g4303g9561gc010a174e70d" version="1">Pact weapon uses your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier.&lt;br&gt;&lt;br&gt;The weapon returns to its previous state if you are more than [1] away from it for more than 10 rounds.</content>
+	<content contentuid="hbd4794c5g2a17g4a1fgbb85gfc45a5f8be61" version="1">Bind to your weapon. Its damage becomes magical, you cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already. When you attack with this weapon, there is a chance that &lt;LSTag Type="Status" Tooltip="HEXBLADES_CURSE"&gt;Hexblade's Curse&lt;/LSTag&gt; will be applied to the target.</content>
 </contentList>

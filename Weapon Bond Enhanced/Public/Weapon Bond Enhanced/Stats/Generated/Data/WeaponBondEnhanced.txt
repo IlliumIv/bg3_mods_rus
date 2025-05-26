@@ -11,6 +11,13 @@ data "ExtraDescription" "h910e0ac2g8453g4303g9561gc010a174e70d;1"
 data "SpellProperties" "ApplyEquipmentStatus(MainHand,PACT_BLADE,100,-1);IF(not HasShieldEquipped()):ApplyEquipmentStatus(OffHand,PACT_BLADE,100,-1);ApplyEquipmentStatus(RangedMainHand,PACT_BLADE,100,-1);ApplyEquipmentStatus(RangedOffHand,PACT_BLADE,100,-1);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(MainHand,PACT_BLADE,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(OffHand,PACT_BLADE,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedMainHand,PACT_BLADE,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedOffHand,PACT_BLADE,100,0)"
 data "TooltipStatusApply" "ApplyStatus(PACT_BLADE,100,-1)"
 
+new entry "Shout_Hexblade_Bind"
+type "SpellData"
+using "Shout_Hexblade_Bind"
+data "Description" "hbd4794c5g2a17g4a1fgbb85gfc45a5f8be61;1"
+data "SpellProperties" "ApplyEquipmentStatus(MainHand,HEXBLADE_BIND,100,-1);IF(not HasShieldEquipped()):ApplyEquipmentStatus(OffHand,HEXBLADE_BIND,100,-1);ApplyEquipmentStatus(RangedMainHand,HEXBLADE_BIND,100,-1);ApplyEquipmentStatus(RangedOffHand,HEXBLADE_BIND,100,-1);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(MainHand,HEXBLADE_BIND,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(OffHand,HEXBLADE_BIND,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedMainHand,HEXBLADE_BIND,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedOffHand,HEXBLADE_BIND,100,0);ApplyEquipmentStatus(MainHand,HEXBLADE_BIND_TECHNICAL,100,-1);IF(not HasShieldEquipped()):ApplyEquipmentStatus(OffHand,HEXBLADE_BIND_TECHNICAL,100,-1);ApplyEquipmentStatus(RangedMainHand,HEXBLADE_BIND_TECHNICAL,100,-1);ApplyEquipmentStatus(RangedOffHand,HEXBLADE_BIND_TECHNICAL,100,-1);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(MainHand,HEXBLADE_BIND_TECHNICAL,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(OffHand,HEXBLADE_BIND_TECHNICAL,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedMainHand,HEXBLADE_BIND_TECHNICAL,100,0);IF(HasStatus('SNEAKING')):ApplyEquipmentStatus(RangedOffHand,HEXBLADE_BIND_TECHNICAL,100,0)"
+data "DescriptionParams" "|The weapon returns to its previous state if you are more than [1] away from it for more than 10 rounds.|"
+
 new entry "PACT_BLADE"
 type "StatusData"
 using "PACT_BLADE"

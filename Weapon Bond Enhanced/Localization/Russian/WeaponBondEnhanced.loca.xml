@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<content contentuid="h910e0ac2g8453g4303g9561gc010a174e70d" version="1">Оружие договора использует ваш модификатор &lt;LSTag Tooltip="Charisma"&gt;харизмы&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Оружие возвращается в прежнее состояние, если вы более 10 раундов находитесь на расстоянии более [1] от него.</content>
+	<content contentuid="hbd4794c5g2a17g4a1fgbb85gfc45a5f8be61" version="1">Связать себя с оружием в ваших руках. Его урон становится магическим, вы не можете метнуть его или выбросить, плюс вы получаете &lt;LSTag Tooltip="WeaponProficiency"&gt;умение&lt;/LSTag&gt; обращаться с ним, если у вас его еще не было. Когда вы атакуете этим оружием, есть шанс наложить на цель проклятие &lt;LSTag Type="Status" Tooltip="HEXBLADES_CURSE"&gt;ведьмовского клинка&lt;/LSTag&gt;.</content>
 </contentList>
