@@ -1,0 +1,8 @@
+new entry "MAG_HARPERS_OBSCURITY_SAVING_THROWS_FIX"
+type "StatusData"
+using "MAG_HARPERS_OBSCURITY_SAVING_THROWS_FIX"
+data "SoundStart" "MAG_Status_Boost_Shadow_Obscurity_Critical"
+data "SoundLoop" "MAG_Status_Boost_Shadow_Obscurity_Critical_Loop"
+data "SoundStop" "MAG_Status_Boost_Shadow_Obscurity_Critical_Loop_Stop"
+data "StatusEffect" "3ce4d62e-4969-42c2-9fa6-f715a73ae77e"
+data "ManagedStatusEffectGroup" ""
