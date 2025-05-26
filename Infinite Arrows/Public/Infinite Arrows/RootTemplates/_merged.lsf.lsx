@@ -1,0 +1,1648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="329" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h356fc151g36bfg42a5ga90egaa66fcd80d38" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd49eb0b4gd15bg417dg98b2g7ead6584c533" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="04ba10a0-ca33-47e6-9810-0b7234700c4a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Fiend" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfFiendSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfFiendSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h6670949fg6445g4390g9e6eg885b09a366de" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="had96ed60gbf44g45afgb9d0g222bf65f6016" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Smokepowder" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0788a2bb-c732-4ebb-abf9-2ef150f509be" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Smokepowder" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a0985797-4ec7-475c-8e11-0361e387f39a" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfSmokepowder" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfSmokepowder" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h3add1ec2gf066g4a49g8189g6faa59ef19e8" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he7d3b067gf505g4895g93f4gd8a8856a8c3c" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Acid" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0bfb72d2-0e8e-4d16-aeae-3159b0d4b195" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Acid" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="12282a72-807b-7615-f35d-046c05b2c4bd" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfAcid" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="10a258d3-0b9c-2c4b-45b8-bb6e5543b3be" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4652592 0.021982044 0.031803183" />
+									<attribute id="Min" type="fvec3" value="-0.46736908 -0.030126497 -0.025933694" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4652592 0.021982044 0.031803183" />
+									<attribute id="Min" type="fvec3" value="-0.46736908 -0.030126497 -0.025933694" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.2326296 0.021982044 0.015901592" />
+									<attribute id="Min" type="fvec3" value="-0.23368454 -0.030126497 -0.012966847" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfAcid" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h4a1ec70bg47a2g42e8gbf4agbd2ce54da6c8" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3a223ba2g04d7g4f40g9223g2122e181880b" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0d81014f-cc7f-4c79-9477-b8cda9738c72" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Elemental" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfElementalSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfElementalSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h6fbf993egadfag463bgb276g2b4ca16d95e4" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1545f451-3fc5-4c1b-970e-572f9ace630c" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Aberration" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfAberrationSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfAberrationSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h2ac7869bg67a1g492bg8321ge77f4f0e15f8" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4b7cd142g8888g46cegaec5ge3495314a9db" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Lightning" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1b0f095b-cb22-4bf9-aecf-4e5a26504ec8" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Lightning" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="ad21a1cf-6372-8632-81ee-88087f90ffc1" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfLightning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="a5b4718b-a42e-7c19-ddd6-1db462a46092" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.46627945 0.021545105 0.026907023" />
+									<attribute id="Min" type="fvec3" value="-0.46922177 -0.028966598 -0.025118046" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.46627945 0.021545105 0.026907023" />
+									<attribute id="Min" type="fvec3" value="-0.46922177 -0.028966598 -0.025118046" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23313972 0.021545105 0.013453512" />
+									<attribute id="Min" type="fvec3" value="-0.23461089 -0.028966598 -0.012559023" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfLightning" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h76c13be6g6278g410cg8a4cgc03beeec625f" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h304d9cf2g3c3bg4ce8g9462g15592aa2a34e" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="21a2ef96-97ac-4372-95d7-676174610abc" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Fey" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfFeySlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfFeySlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h460f6582g494bg4364gaa6bg3de31ee76006" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3fd8d9b6gc313g4c06gb554g38571ae4045b" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Ice" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2e297d80-823b-4200-926e-6ca23f488090" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Ice" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0ef91de3-88aa-5b42-406b-67a33cd32def" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfIce" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="0351d090-9433-4803-611b-28a2eb24e86e" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.45333678 0.022574998 0.028002517" />
+									<attribute id="Min" type="fvec3" value="-0.4671902 -0.028892912 -0.023889164" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.45333678 0.022574998 0.028002517" />
+									<attribute id="Min" type="fvec3" value="-0.4671902 -0.028892912 -0.023889164" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.22666839 0.022574998 0.014001259" />
+									<attribute id="Min" type="fvec3" value="-0.2335951 -0.028892912 -0.011944582" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfIce" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h9b808fa4gac64g464agaa22g07440297bf3e" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc777b4f4g17c8g4e6dg92c1g19eda481f6bd" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3c2c6a61-e348-4222-9ba3-58a4d49d558c" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Humanoid" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfHumanoidSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfHumanoidSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h90f2cf60g11b2g4060g8505g024d18bdc016" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h50f265d0g752dg44ffg80cfg2f45248639ba" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="437835b4-0d13-47b7-8aca-5da4f948783b" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Dragon" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfDragonSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfDragonSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h52d8a7d3g7168g47e5g8ddeg8546b40cf167" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h338f3b2cged0bg4e4agb5d1g04a83fc4429e" version="2" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Teleportation" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4cf7bbbb-1d1b-4bec-b82a-cdc3cce33f7a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Teleportation" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="60875dc4-5fd5-54cb-4d72-6a9245e2ab84" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfTeleportation" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="7e2a22da-74fd-3123-7933-58aa803e0d8c" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209012" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4312509 0.03928597 0.037852198" />
+									<attribute id="Min" type="fvec3" value="-0.46794435 -0.036098484 -0.037532322" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4312509 0.03928597 0.037852198" />
+									<attribute id="Min" type="fvec3" value="-0.46794435 -0.036098484 -0.037532322" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.21562545 0.03928597 0.018926099" />
+									<attribute id="Min" type="fvec3" value="-0.23397218 -0.036098484 -0.018766161" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfTeleportation" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h2a1f31c8gac76g4a1bgb815g4bf2772335cf" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha6e72561g1607g4e83gb484g5352fd80c713" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5931f0c7-ddd7-4e3b-aeef-64b0e7eefb70" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Ooze" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfOozeSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfOozeSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h2061f530g6453g431bgbe8ega49373cfcdb3" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2ebcbfe2gd6b3g4befga0f4g60f0a38008f8" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Smoke" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="844c19ce-9e8f-4119-8856-8fa2029461b1" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Darkness" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="fa7c0375-e0bf-c17b-b6fa-c7492dfab2fe" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfDarkness" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="52956b09-a569-0d57-6598-72ed858199de" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4595931 0.025976181 0.037294712" />
+									<attribute id="Min" type="fvec3" value="-0.46858415 -0.028856449 -0.022974055" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4595931 0.025976181 0.037294712" />
+									<attribute id="Min" type="fvec3" value="-0.46858415 -0.028856449 -0.022974055" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.22979654 0.025976181 0.018647356" />
+									<attribute id="Min" type="fvec3" value="-0.23429208 -0.028856449 -0.011487028" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfDarkness" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hcd8a95bag7d80g48fdgaa6bg7158e0d7f7ef" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha881c553gff7cg464fgba45g3786ace1ff82" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="86a4dd98-80b1-4778-b498-e3a49b1dec37" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Construct" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfConstructSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfConstructSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h1e3e0b7aga61ag4fbeg878dg80e3e2211136" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha50b0313g4be0g4db7gbbb1g44177dc9ebeb" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="86e46f4a-6789-47ef-ab85-449ca36b1b20" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Beast" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfBeastSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfBeastSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h8d1ea4bbg3374g4b5dg9bb9g439af1a7489e" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0f9a7ae2gb3bbg480ag82b1gfcddc4f2c5d1" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Fire" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9a142fae-bcea-4e88-a407-16d3b27468b9" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Fire" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f23a1bc8-3d8c-9c97-445c-9da59e1d346b" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfFire" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="288e4f0f-169d-2e27-1f83-80b6dc4e77a3" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.48651558 0.017162066 0.025998322" />
+									<attribute id="Min" type="fvec3" value="-0.46796733 -0.030015055 -0.026029123" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.48651558 0.017162066 0.025998322" />
+									<attribute id="Min" type="fvec3" value="-0.46796733 -0.030015055 -0.026029123" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.24325779 0.017162066 0.012999161" />
+									<attribute id="Min" type="fvec3" value="-0.23398367 -0.030015055 -0.013014561" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfFire" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="haf234e67g2413g4072gbf81g6aaf3251c193" version="5" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb66e62f7gae14g4356gababg5e27efb1faf1" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Detonation" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="MapKey" type="FixedString" value="a0985797-4ec7-475c-8e11-0361e387f39a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Detonation" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="65b4093c-10fc-063a-7919-963c98172d73" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfDetonation" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="7f58421d-72be-849b-e697-2801b58461b2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.44895938 0.024981692 0.027705032" />
+									<attribute id="Min" type="fvec3" value="-0.46800044 -0.02895388 -0.024120793" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.44895938 0.024981692 0.027705032" />
+									<attribute id="Min" type="fvec3" value="-0.46800044 -0.02895388 -0.024120793" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.22447969 0.024981692 0.013852516" />
+									<attribute id="Min" type="fvec3" value="-0.23400022 -0.02895388 -0.012060396" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfDetonation" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h9706e2dcg1fd7g461fgbc0fgf2e059e7fcbe" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5ec08a06g3cdbg4200ga7b4g80c73d124e06" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_WraithsEmbrace" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a61c8248-1595-450f-bcc9-2ed1d9853739" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Wraiths_Embrace" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a69d4afd-ece1-0f59-4367-8783e624c0fd" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfWraithsEmbrace" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="937e9793-a9a9-2454-c2ae-461b1fe69cc9" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241408" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4652592 0.021982044 0.031803183" />
+									<attribute id="Min" type="fvec3" value="-0.46736908 -0.030126497 -0.025933694" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.2326296 0.021982044 0.015901592" />
+									<attribute id="Min" type="fvec3" value="-0.23368454 -0.030126497 -0.012966847" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4652592 0.021982044 0.031803183" />
+									<attribute id="Min" type="fvec3" value="-0.46736908 -0.030126497 -0.025933694" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfWraithsEmbrace" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h50d0a784g3bd6g4df1gaaaeg3c13b4fa2700" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0b26054fgee27g4041gbb53g91e6e75534fb" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a86bf6b2-2e75-4464-ad65-2bafa89e73aa" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Giant" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfGiantSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfGiantSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hde7bc783gd1c5g4a4fgad65g109ab107aaed" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h15975c4dgc2c4g4a6dg83aeg09a82da01795" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ab4ed528-cf26-417d-a751-981f7c83066f" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Plant" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfPlantSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfPlantSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha793cf18g2d1bg41ddg8dd1g21c5d19bb8d8" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2d0e56f9gaf36g4f43g9a96g2a7ab6948eff" version="4" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Dispelling" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ac23602b-ceee-4ef3-a6b8-601e40a5aa6f" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Dispelling" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="8ffdd672-1d5d-792f-5672-9b695fb3ee29" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfDispelling" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="0bb75133-9cd5-462f-a8e7-cc9c43c1abf1" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209012" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4552099 0.040812153 0.04091873" />
+									<attribute id="Min" type="fvec3" value="-0.46793312 -0.038317796 -0.03821125" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4552099 0.040812153 0.04091873" />
+									<attribute id="Min" type="fvec3" value="-0.46793312 -0.038317796 -0.03821125" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.22760496 0.040812153 0.020459365" />
+									<attribute id="Min" type="fvec3" value="-0.23396656 -0.038317796 -0.019105624" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfDispelling" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h966066e4gdc0cg47e5g9ea2ga78863b97196" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc8088769g3a9ag439fg906cg148133ad098c" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ae58df6b-0fc9-48ff-9d36-52bf9bc22204" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Undead" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfUndeadSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfUndeadSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h6912a3bcgc778g4cdaga48bgfee00e9e10a4" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0b80a0c0g7281g431egb624g3c496b59ce67" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Ricochet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b11b3f7f-d8ec-41db-93b9-24474aea31e3" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Ricochet" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cf68842b-ff68-3178-646f-b5a9a702758c" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfRicochet" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="2782ea41-d27e-1b53-f64b-576ae342f67f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.47907597 0.026666101 0.023107946" />
+									<attribute id="Min" type="fvec3" value="-0.46743822 -0.025518898 -0.028914984" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.47907597 0.026666101 0.023107946" />
+									<attribute id="Min" type="fvec3" value="-0.46743822 -0.025518898 -0.028914984" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23953798 0.026666101 0.011553973" />
+									<attribute id="Min" type="fvec3" value="-0.23371911 -0.025518898 -0.014457492" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfRicochet" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h0da1e659g7269g4ac9g8701g021b1c7f2c2b" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfa474df3g6f0ag45e2gb8d7g706291929b90" version="2" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Antimagic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c9871e4a-633e-4b81-9115-8ffd0f69ee6a" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Antimagic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d4dd8569-12c8-538f-cceb-f603d872a316" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfAntimagic" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="b6e78230-6ec5-d8d8-34a1-ba371897c5e7" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209012" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.48839223 0.020376358 0.027535371" />
+									<attribute id="Min" type="fvec3" value="-0.4678551 -0.028861772 -0.024410013" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.48839223 0.020376358 0.027535371" />
+									<attribute id="Min" type="fvec3" value="-0.4678551 -0.028861772 -0.024410013" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.24419612 0.020376358 0.013767686" />
+									<attribute id="Min" type="fvec3" value="-0.23392755 -0.028861772 -0.012205007" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfAntimagic" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hc3c9d1dagaf56g4ebag95b8g1c746e0c540f" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h26954623gd0bcg4a4agaed9g6e54bc6f3ffe" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d7645507-6c0c-48ff-aa1b-57092d139f22" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Monstrosity" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfMonstrositySlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfMonstrositySlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h7851fa9eg5101g4636g9fa4g1eae2046524c" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h687d0557g1c85g4673g979bg8244ac9a5727" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Piercing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="eee2f284-1a42-462a-8b38-50bd2e3885c5" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Piercing" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5602d8e3-e4ad-0ad2-8e72-1f960b9d9955" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfPiercing" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="4ab86270-78e9-669c-515c-1fd939d1a83f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.42308998 0.01808957 0.024532892" />
+									<attribute id="Min" type="fvec3" value="-0.46713698 -0.029496826 -0.027211055" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.42308998 0.01808957 0.024532892" />
+									<attribute id="Min" type="fvec3" value="-0.46713698 -0.029496826 -0.027211055" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.21154499 0.01808957 0.012266446" />
+									<attribute id="Min" type="fvec3" value="-0.23356849 -0.029496826 -0.013605528" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfPiercing" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h0fee500fg733cg4cb9g9c68g3e8ae7578948" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h57cf9b12g090ag426ag8d70g115201c8c1ad" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_ARR_Arrow_Of_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f516862d-5a05-426a-a8a1-1486b35b68f8" />
+					<attribute id="Name" type="LSString" value="ARR_Arrow_Of_Slaying_Celestial" />
+					<attribute id="Opacity" type="float" value="0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="493d043f-3eb1-4a57-b41d-0129f3e07444" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9310e3d5-db16-c03b-07b7-a936657e90ed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ArrowOfCelestialSlaying" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="ec3b5d16-160d-8cdb-a775-e12e2f2a66d0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725556" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.4728469 0.027398542 0.02678832" />
+									<attribute id="Min" type="fvec3" value="-0.46859846 -0.024786457 -0.029401205" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.418184" />
+									<attribute id="Max" type="fvec3" value="0.23642345 0.027398542 0.01339416" />
+									<attribute id="Min" type="fvec3" value="-0.23429923 -0.024786457 -0.014700603" />
+									<attribute id="Radius" type="float" value="0.0570735" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ArrowOfCelestialSlaying" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
