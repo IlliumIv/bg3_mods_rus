@@ -1,0 +1,14 @@
+new entry "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive"
+type "PassiveData"
+using "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive"
+data "Icon" "Forbidden_Knowledge"
+
+new entry "UND_BlessingOfBOOOAL"
+type "PassiveData"
+using new entry "UND_BlessingOfBOOOAL"
+data "Icon" "statIcons_BoooalsBenediction"
+
+new entry "LOW_VoloFate_SlayerKnowledge"
+type "PassiveData"
+using "LOW_VoloFate_SlayerKnowledge"
+data "Icon" "Slayer_Knowledge"
