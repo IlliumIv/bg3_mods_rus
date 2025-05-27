@@ -73,18 +73,17 @@
 							<Setter TargetName="NameTxt" Property="Foreground" Value="{StaticResource LS_alertTxtColor}"/>
 						</DataTrigger>
 
-						<DataTrigger Binding="{Binding ContainerState}" Value="Empty">
-                        <!--
-							<Setter TargetName="ExtraInfo" Property="Text" Value="{Binding Source='h823595e6g550fg4614gb1ddgdcd323bb4c69',Converter={StaticResource TranslatedStringConverter}, StringFormat='{} - {0}'}"/>
-							<Setter TargetName="ExtraInfo" Property="Visibility" Value="Visible"/>
-                        -->
-							<Setter TargetName="ExtraInfo" Property="Text" Value="{Binding Source='h823595e6g550fg4614gb1ddgdcd323bb4c69',Converter={StaticResource TranslatedStringConverter}, StringFormat='{} - {0}'}"/>
-							<Setter TargetName="ExtraInfo" Property="Visibility" Value="Visible"/>
-						</DataTrigger>
 						<DataTrigger Binding="{Binding ContainerState}" Value="NotExplored">
 							<Setter TargetName="ExtraInfo" Property="Text" Value="*"/>
 							<Setter TargetName="ExtraInfo" Property="Visibility" Value="Visible"/>
+							<Setter Property="Visibility" Value="Visible"/>
 						</DataTrigger>
+						
+						<DataTrigger Binding="{Binding ContainerState}" Value="Empty">
+							<Setter Property="Visibility" Value="Collapsed"/>
+						</DataTrigger>
+						
+	
 					</DataTemplate.Triggers>
 				</DataTemplate>
 			</DataTemplate.Resources>
@@ -111,9 +110,6 @@
 					</ItemsControl.ItemContainerStyle>
                 </ItemsControl>
 
-                <!--
-                <ls:LSInputBinding BoundEvent="ShowWorldTooltips" Command="{Binding SetShowWorldTooltipsCommand}" CommandParameter="{StaticResource FalseValue}" TriggerOnRelease="True" EatInput="False"/>
-				-->
                 <ls:LSInputBinding BoundEvent="ShowWorldTooltips" Command="{Binding SetShowWorldTooltipsCommand}" CommandParameter="{StaticResource FalseValue}" EatInput="False"/>
 				<ls:LSInputBinding BoundEvent="ShowWorldTooltips" Command="{Binding SetShowWorldTooltipsCommand}" EatInput="False"/>
 			</Grid>
