@@ -1,0 +1,5 @@
+new entry "Target_Guidance"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Guidance"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsMelee"

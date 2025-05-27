@@ -1,0 +1,5 @@
+new entry "Target_Resistance"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Resistance"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsMelee"
