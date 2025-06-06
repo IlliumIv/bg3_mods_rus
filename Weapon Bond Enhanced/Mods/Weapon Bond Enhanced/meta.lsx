@@ -19,10 +19,10 @@
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
           <attribute id="UUID" type="FixedString" value="99ee0593-cf0c-4634-9eba-b31f345ecdcd" />
-          <attribute id="Version64" type="int64" value="36028797018963982" />
+          <attribute id="Version64" type="int64" value="36028797018963983" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="36028797018963982" />
+              <attribute id="Version64" type="int64" value="36028797018963983" />
             </node>
           </children>
         </node>
