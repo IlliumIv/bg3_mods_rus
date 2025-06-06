@@ -1,0 +1,4 @@
+new entry "PASS_WITHOUT_TRACE"
+type "StatusData"
+using "PASS_WITHOUT_TRACE"
+data "StatusPropertyFlags" "DisableCombatlog"
