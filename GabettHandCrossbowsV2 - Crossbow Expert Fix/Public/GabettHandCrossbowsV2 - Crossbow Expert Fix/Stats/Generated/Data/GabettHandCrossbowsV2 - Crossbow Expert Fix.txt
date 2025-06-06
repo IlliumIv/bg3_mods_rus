@@ -1,0 +1,83 @@
+new entry "GAB_Achilles"
+using "GAB_Achilles"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_StalksInShadows"
+using "GAB_StalksInShadows"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_QuickThinker"
+using "GAB_QuickThinker"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Tactician"
+using "GAB_Tactician"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_AllTrades"
+using "GAB_AllTrades"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_SomeTrades"
+using "GAB_SomeTrades"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_WaterGun"
+using "GAB_WaterGun"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Taser"
+using "GAB_Taser"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_RightTool"
+using "GAB_RightTool"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_MisserDeluxe"
+using "GAB_MisserDeluxe"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Charming"
+using "GAB_Charming"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Wise"
+using "GAB_Wise"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Intelligent"
+using "GAB_Intelligent"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Tinkertop"
+using "GAB_Tinkertop"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_MisserUltraDeluxe"
+using "GAB_MisserUltraDeluxe"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Tribute"
+using "GAB_Tribute"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Phasestrike"
+using "GAB_Phasestrike"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_ArcaneBlaster"
+using "GAB_ArcaneBlaster"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Stingtail"
+using "GAB_Stingtail"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Twinshot"
+using "GAB_Twinshot"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "GAB_Soulthief"
+using "GAB_Soulthief"
+data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
