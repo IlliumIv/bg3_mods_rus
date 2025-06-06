@@ -1,0 +1,190 @@
+new entry "Target_ElementalWeapon"
+type "SpellData"
+using "Target_ElementalWeapon"
+data "TargetConditions" "Item() or (Ally())"
+data "MaximumTargets" ""
+
+new entry "Target_ElementalWeapon_Acid"
+type "SpellData"
+using "Target_ElementalWeapon_Acid"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_ACID,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_ACID,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_ACID,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_ACID,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_ACID,100,-1)"
+
+new entry "Target_ElementalWeapon_Cold"
+type "SpellData"
+using "Target_ElementalWeapon_Cold"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_COLD,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_COLD,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_COLD,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_COLD,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_COLD,100,-1)"
+
+new entry "Target_ElementalWeapon_Fire"
+type "SpellData"
+using "Target_ElementalWeapon_Fire"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_FIRE,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_FIRE,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_FIRE,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_FIRE,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_FIRE,100,-1)"
+
+new entry "Target_ElementalWeapon_Lightning"
+type "SpellData"
+using "Target_ElementalWeapon_Lightning"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_LIGHTNING,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_LIGHTNING,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_LIGHTNING,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_LIGHTNING,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_LIGHTNING,100,-1)"
+
+new entry "Target_ElementalWeapon_Thunder"
+type "SpellData"
+using "Target_ElementalWeapon_Thunder"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_THUNDER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_THUNDER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_THUNDER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_THUNDER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_THUNDER,100,-1)"
+
+new entry "Target_ElementalWeapon_Acid_5"
+type "SpellData"
+using "Target_ElementalWeapon_Acid_5"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_ACID_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Cold_5"
+type "SpellData"
+using "Target_ElementalWeapon_Cold_5"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_COLD_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Fire_5"
+type "SpellData"
+using "Target_ElementalWeapon_Fire_5"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_FIRE_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Lightning_5"
+type "SpellData"
+using "Target_ElementalWeapon_Lightning_5"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Thunder_5"
+type "SpellData"
+using "Target_ElementalWeapon_Thunder_5"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Acid_6"
+type "SpellData"
+using "Target_ElementalWeapon_Acid_6"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_ACID_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_ACID_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Cold_6"
+type "SpellData"
+using "Target_ElementalWeapon_Cold_6"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_COLD_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_COLD_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Fire_6"
+type "SpellData"
+using "Target_ElementalWeapon_Fire_6"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_FIRE_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_FIRE_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Lightning_6"
+type "SpellData"
+using "Target_ElementalWeapon_Lightning_6"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_LIGHTNING_5,100,-1)"
+
+new entry "Target_ElementalWeapon_Thunder_6"
+type "SpellData"
+using "Target_ElementalWeapon_Thunder_6"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_THUNDER_5,100,-1)"
+
+new entry "Target_ElementalWeapon_7"
+type "SpellData"
+using "Target_ElementalWeapon_7"
+data "MaximumTargets" ""
+
+new entry "Target_ElementalWeapon_Acid_7"
+type "SpellData"
+using "Target_ElementalWeapon_Acid_7"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_ACID_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Cold_7"
+type "SpellData"
+using "Target_ElementalWeapon_Cold_7"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_COLD_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Fire_7"
+type "SpellData"
+using "Target_ElementalWeapon_Fire_7"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_FIRE_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Lightning_7"
+type "SpellData"
+using "Target_ElementalWeapon_Lightning_7"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Thunder_7"
+type "SpellData"
+using "Target_ElementalWeapon_Thunder_7"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1)"
+
+new entry "Target_ElementalWeapon_8"
+type "SpellData"
+using "Target_ElementalWeapon_8"
+data "MaximumTargets" ""
+
+new entry "Target_ElementalWeapon_Acid_8"
+type "SpellData"
+using "Target_ElementalWeapon_Acid_8"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_ACID_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Cold_8"
+type "SpellData"
+using "Target_ElementalWeapon_Cold_8"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_COLD_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Fire_8"
+type "SpellData"
+using "Target_ElementalWeapon_Fire_8"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_FIRE_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Lightning_8"
+type "SpellData"
+using "Target_ElementalWeapon_Lightning_8"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Thunder_8"
+type "SpellData"
+using "Target_ElementalWeapon_Thunder_8"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1)"
+
+new entry "Target_ElementalWeapon_9"
+type "SpellData"
+using "Target_ElementalWeapon_9"
+data "MaximumTargets" ""
+
+new entry "Target_ElementalWeapon_Acid_9"
+type "SpellData"
+using "Target_ElementalWeapon_Acid_9"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_ACID_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_ACID_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Cold_9"
+type "SpellData"
+using "Target_ElementalWeapon_Cold_9"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_COLD_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_COLD_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Fire_9"
+type "SpellData"
+using "Target_ElementalWeapon_Fire_9"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_FIRE_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_FIRE_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Lightning_9"
+type "SpellData"
+using "Target_ElementalWeapon_Lightning_9"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_LIGHTNING_7,100,-1)"
+
+new entry "Target_ElementalWeapon_Thunder_9"
+type "SpellData"
+using "Target_ElementalWeapon_Thunder_9"
+data "SpellProperties" "IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_MASTER,100,-1);IF(Item()):ApplyStatus(ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(MeleeMainHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item() and not HasShieldEquipped()):ApplyEquipmentStatus(MeleeOffHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedMainHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_MASTER,100,-1);IF(not Item()):ApplyEquipmentStatus(RangedOffHand,ELEMENTAL_WEAPON_THUNDER_7,100,-1)"
+
+new entry "ELEMENTAL_WEAPON_MASTER"
+type "StatusData"
+using "ELEMENTAL_WEAPON_MASTER"
+data "IsUnique" "0"
+
+new entry "ELEMENTAL_WEAPON_ACID"
+type "StatusData"
+using "ELEMENTAL_WEAPON_ACID"
+data "IsUnique" "0"
+
+new entry "ELEMENTAL_WEAPON_ACID_5"
+type "StatusData"
+using "ELEMENTAL_WEAPON_ACID_5"
+data "IsUnique" "0"
+
+new entry "ELEMENTAL_WEAPON_ACID_7"
+type "StatusData"
+using "ELEMENTAL_WEAPON_ACID_7"
+data "IsUnique" "0"
