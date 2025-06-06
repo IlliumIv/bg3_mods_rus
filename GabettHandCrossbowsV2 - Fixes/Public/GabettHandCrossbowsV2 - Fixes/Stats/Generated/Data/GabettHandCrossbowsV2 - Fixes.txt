@@ -81,3 +81,7 @@ data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
 new entry "GAB_Soulthief"
 using "GAB_Soulthief"
 data "Weapon Properties" "Light;Ammunition;Loading;Dippable;Magical"
+
+new entry "MAG_TinkertopCriticalHit_Passive"
+using "MAG_TinkertopCriticalHit_Passive"
+data "StatsFunctors" "IF(IsCritical() and not HasStatus('ACTION_SURGE', context.Source)):ApplyStatus(SELF, ACTION_SURGE,100, 1)"
